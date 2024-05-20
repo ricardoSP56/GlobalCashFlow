@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalCashFlow</title>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="GlobalCashFlow">
+            <h1>GlobalCashFlow Currency Converter</h1>
+        </header>
+       
+        <div class="converter" id="converter">
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+            <div class="form-group">
+                <label for="from">From:</label>
+                <select id="from">
+                    <option value="USD">US Dollar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="DOP">Dominican Peso</option>
+                    <option value="RUB">Rubles</option>
+                    <option value="KWD">Kuwaiti Dinar</option>
+                    <option value="VED">Bolivar</option>
+                    <option value="COP">Colombian Peso</option>
+                    <option value="ARS">Argentine Peso</option>
+                    <option value="INR">Rupees</option>
+                    <option value="MXN">Mexican Peso</option>
+                    <option value="KRW">South Korean Won</option>
+                    <option value="JPY">Yen</option>
+                    <option value="CNY">Yuan</option>
+                    <option value="ILS">Israeli shekel</option>
+                    <option value="GBP">Great Britain pound</option>
+                    <option value="CAD">Canadian Dollar</option>
+                    <option value="AUD">Australian Dollar</option>
+                    <option value="CHF">Swiss Franc</option>
+                    <option value="NZD">New Zealand Dollar</option>
+                    <option value="HKD">Hong Kong Dollar</option>
+                    <option value="SGD">Singapore Dollar</option>
+                    <option value="SEK">Swedish Krona</option>
+                    <option value="NOK">Norwegian Krone</option>
+                    <option value="DKK">Danish Krone</option>
+                    <option value="ZAR">South African Rand</option>
+                    <option value="BRL">Brazilian Real</option>
+                    <option value="PLN">Polish Zloty</option>
+                    <option value="TRY">Turkish Lira</option>
+                    <option value="THB">Thai Baht</option>
+                    <option value="IDR">Indonesian Rupiah</option>
+                    <option value="PHP">Philippine Peso</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="to">To:</label>
+                <select id="to">
+                    <option value="USD">US Dollar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="DOP">Dominican Peso</option>
+                    <option value="RUB">Rubles</option>
+                    <option value="KWD">Kuwaiti Dinar</option>
+                    <option value="VED">Bolivar</option>
+                    <option value="COP">Colombian Peso</option>
+                    <option value="ARS">Argentine Peso</option>
+                    <option value="INR">Rupees</option>
+                    <option value="MXN">Mexican Peso</option>
+                    <option value="KRW">South Korean Won</option>
+                    <option value="JPY">Yen</option>
+                    <option value="CNY">Yuan</option>
+                    <option value="ILS">Israeli shekel</option>
+                    <option value="GBP">Great Britain pound</option>
+                    <option value="CAD">Canadian Dollar</option>
+                    <option value="AUD">Australian Dollar</option>
+                    <option value="CHF">Swiss Franc</option>
+                    <option value="NZD">New Zealand Dollar</option>
+                    <option value="HKD">Hong Kong Dollar</option>
+                    <option value="SGD">Singapore Dollar</option>
+                    <option value="SEK">Swedish Krona</option>
+                    <option value="NOK">Norwegian Krone</option>
+                    <option value="DKK">Danish Krone</option>
+                    <option value="ZAR">South African Rand</option>
+                    <option value="BRL">Brazilian Real</option>
+                    <option value="PLN">Polish Zloty</option>
+                    <option value="TRY">Turkish Lira</option>
+                    <option value="THB">Thai Baht</option>
+                    <option value="IDR">Indonesian Rupiah</option>
+                    <option value="PHP">Philippine Peso</option>
+                </select>
+            </div>
+            <button onclick="convert()">Convert</button>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/authscript.js"></script>
+</body>
+</html>
