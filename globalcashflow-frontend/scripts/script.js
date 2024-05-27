@@ -70,7 +70,7 @@ async function convert() {
     const amount = parseFloat(document.getElementById("amount").value);
     const fromCurrency = document.getElementById("from").value;
     const toCurrency = document.getElementById("to").value;
-    const apiKey = 'd558963dc9-32cd47d85a-se515r';
+    const apiKey = '7f5cce0721-684ff76af2-sdnnd7';
     const url = `https://api.fastforex.io/fetch-all?api_key=${apiKey}`;
 
     const options = { method: 'GET', headers: { accept: 'application/json' } };
